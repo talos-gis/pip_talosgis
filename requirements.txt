@@ -1,0 +1,41 @@
+# general
+setuptools
+twine
+
+# ui
+pyqt5
+pyside2
+
+# data science
+numpy
+scipy
+pandas
+matplotlib
+networkx
+
+# gis
+gdal
+angles
+geographiclib
+shapely
+pyproj
+gdalos
+pywps
+czml3
+#geopandas
+
+# quality
+tox
+black
+mypy
+isort
+flake8
+Sphinx
+
+# services
+flask
+
+# others
+fidget
+transmogripy
+swimport
