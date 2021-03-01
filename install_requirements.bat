@@ -1,6 +1,8 @@
-@echo Are you sure you want to install all the requirements? 
+@set WHEELS_TARGET=%~dp0\wheels
+@if %1x==x (set requirements=requirements.txt) else (set requirements=%*)
+
+@echo Are you sure you want to install all the requirements in %requirements% from %WHEELS_TARGET%? 
 @echo Press Ctrl+C to abort
 pause
-set wheels=%~dp0\wheels\
-if %1x==x (set requirements=requirements.txt) else (set requirements=%*)
-for %%r in (%requirements%) do python -m pip install --no-index --find-links %wheels% -r %%r
+if [%online%]==[] SET pip_offline=--upgrade --no-index --find-links %WHEELS_TARGET%
+for %%R in (%requirements%) do python -m pip install %pip_offline% -r %%R
