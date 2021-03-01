@@ -1,4 +1,6 @@
 # general
+pip
+wheel
 setuptools
 twine
 
