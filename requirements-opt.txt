@@ -1,4 +1,4 @@
 # apache wsgi
-mod_wsgi
+#mod_wsgi
 # iis wsgi
 wfastcgi
