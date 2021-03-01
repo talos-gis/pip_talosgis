@@ -2,10 +2,6 @@
 setuptools
 twine
 
-# ui
-pyqt5
-pyside2
-
 # data science
 numpy
 scipy
@@ -19,7 +15,7 @@ angles
 geographiclib
 shapely
 pyproj
-gdalos
+gdalos[qt]
 pywps
 czml3
 #geopandas
@@ -34,6 +30,7 @@ Sphinx
 
 # services
 flask
+requests
 
 # others
 fidget
