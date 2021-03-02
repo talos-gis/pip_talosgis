@@ -4,6 +4,6 @@ geographiclib
 shapely
 pyproj
 gdalos[qt]
-pywps
+pywps-json
 czml3
 #geopandas
