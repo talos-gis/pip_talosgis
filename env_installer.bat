@@ -1,0 +1,1 @@
+set INSTALLER_ROOT=%~dp0

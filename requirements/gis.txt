@@ -1,0 +1,9 @@
+gdal
+angles
+geographiclib
+shapely
+pyproj
+gdalos[qt]
+pywps
+czml3
+#geopandas

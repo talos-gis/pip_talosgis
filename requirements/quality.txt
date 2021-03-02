@@ -1,0 +1,7 @@
+tox
+black
+mypy
+isort
+flake8
+Sphinx
+pylint
