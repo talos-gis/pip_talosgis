@@ -1,3 +1,5 @@
+@goto doit
+
 ::AT > NUL
 @NET SESSION >nul 2>&1
 @IF %ERRORLEVEL% EQU 0 (

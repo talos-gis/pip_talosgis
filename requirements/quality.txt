@@ -1,5 +1,4 @@
 tox
-black
 mypy
 isort
 flake8
