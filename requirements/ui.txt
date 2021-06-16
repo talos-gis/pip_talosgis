@@ -1,2 +1,0 @@
-fidget[qt]
-pyside6

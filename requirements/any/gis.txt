@@ -1,9 +1,10 @@
-gdal
 angles
-geographiclib
 shapely
 pyproj
-gdalos[qt]
+pywps
 pywps-json
 czml3
+geographiclib
+gdalos
+#pygeoapi
 #geopandas
