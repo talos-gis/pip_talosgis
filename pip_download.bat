@@ -6,13 +6,17 @@ for %%R in (%requirements%) do echo %%R
 echo Press Ctrl+C to abort
 pause
 
+python.exe -m pip install --upgrade pip
+
 setlocal EnableDelayedExpansion
 
+set all_req=
 for %%R in (%requirements%) do (
 	echo %%R
 	SET ext=%%~xR
 	SET req=
 	if [!ext!]==[.txt] SET req=-r
-	python -m pip download !req! "%%R" -d "%WHEELS_TARGET%"
+	set all_req=!all_req! !req! "%%R"
 )
+python -m pip download -d "%WHEELS_TARGET%" !all_req!
 pause
