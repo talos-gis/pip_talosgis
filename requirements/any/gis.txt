@@ -1,10 +1,5 @@
 angles
 shapely
 pyproj
-pywps
-pywps-json
-czml3
 geographiclib
 gdalos
-#pygeoapi
-#geopandas

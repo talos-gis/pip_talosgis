@@ -1,5 +1,2 @@
 gdal
-gdal-utils
-gdal-ecw
-gdal-sid
-#gdal-mrr
+#gdal-utils

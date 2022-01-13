@@ -1,2 +1,1 @@
 fidget
-pyqt5
