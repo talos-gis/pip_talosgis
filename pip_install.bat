@@ -19,4 +19,3 @@ for %%R in (%requirements%) do (
 	set all_req=!all_req! !req! "%%R"
 )
 python -m pip install --upgrade --prefer-binary %pip_offline% !all_req!
-pause

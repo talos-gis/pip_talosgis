@@ -19,4 +19,3 @@ for %%R in (%requirements%) do (
 	set all_req=!all_req! !req! "%%R"
 )
 python -m pip download -d "%WHEELS_TARGET%" !all_req!
-pause
