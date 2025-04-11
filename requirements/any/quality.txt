@@ -4,4 +4,5 @@ isort
 flake8
 Sphinx
 pylint
-black==19.10b0
+black
+ruff

@@ -1,2 +1,2 @@
-SET PYTHON_NAME=Python38
-SET PYTHON_INST=python-3.8.7-amd64.exe
+SET PYTHON_NAME=Python313
+SET PYTHON_INST=python-3.13.2-amd64.exe
